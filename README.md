@@ -6,7 +6,7 @@ El objetivo es reunir documentacion, playbooks, reglas de deteccion y pequenas h
 
 > Proyecto en desarrollo. El contenido publicado debe poder verificarse mediante fuentes técnicas, documentación oficial o pruebas reproducibles.
 
-## Proposito
+## Propósito
 
 La ciberseguridad y la informática forense son disciplinas distintas, pero se complementan durante todo el ciclo de gestión de incidentes:
 
