@@ -43,7 +43,7 @@ Ejemplo:
 
 ```powershell
 powershell: Get-FileHash .\correo_sospechoso.eml -Algorithm SHA256
-```
+
 Bash: sha256sum correo_sospechoso.eml
 ```
 
@@ -135,7 +135,7 @@ Ejemplo:
 
 ```powershell
 powershell: Get-FileHash .\correo_sospechoso.eml -Algorithm SHA256
-```
+
 Bash: sha256sum correo_sospechoso.eml
 ```
 
