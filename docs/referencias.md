@@ -1,6 +1,6 @@
-# Referencias tecnicas
+# Referencias técnicas
 
-Este documento recoge fuentes base para mantener el repositorio verificable. Antes de publicar una guia, regla o herramienta, conviene enlazar aqui o en el propio documento la fuente concreta utilizada.
+Este documento recoge fuentes base para mantener el repositorio verificable. Antes de publicar una guía, regla o herramienta, conviene enlazar aquí o en el propio documento la fuente concreta utilizada.
 
 ## Respuesta a incidentes y forense digital
 
@@ -23,7 +23,7 @@ Este documento recoge fuentes base para mantener el repositorio verificable. Ant
 - [Eric Zimmerman's tools](https://ericzimmerman.github.io/#!index.md)
 - [Sysinternals](https://learn.microsoft.com/sysinternals/)
 
-## Correo electronico
+## Correo electrónico
 
 - [RFC 5322 - Internet Message Format](https://datatracker.ietf.org/doc/html/rfc5322)
 - [RFC 7208 - Sender Policy Framework (SPF)](https://datatracker.ietf.org/doc/html/rfc7208)
@@ -49,8 +49,8 @@ Este documento recoge fuentes base para mantener el repositorio verificable. Ant
 
 ## Criterios de uso
 
-- Usar documentacion oficial cuando exista.
-- Evitar cifras de marketing sin informe, fecha y pagina concreta.
-- Distinguir entre hecho verificado, inferencia tecnica y ejemplo didactico.
+- Usar documentación oficial cuando exista.
+- Evitar cifras de marketing sin informe, fecha y página concreta.
+- Distinguir entre hecho verificado, inferencia técnica y ejemplo didáctico.
 - No enlazar herramientas que no realicen exactamente la tarea descrita.
-- Revisar periodicamante APIs y formatos de respuesta: pueden cambiar sin que el codigo falle de forma evidente.
+- Revisar periodicamante APIs y formatos de respuesta: pueden cambiar sin que el código falle de forma evidente.
