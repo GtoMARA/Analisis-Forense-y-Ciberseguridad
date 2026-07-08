@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Realizar una primera revisión técnica de un correo sospechoso sin ejecutar adjuntos ni acceder directamente a enlaces potencialmente maliciosos. El resultado esperado es una decisión inicial: benigno, sospechoso, malicioso probable o requiere analisis adicional.
+Realizar una primera revisión técnica de un correo sospechoso sin ejecutar adjuntos ni acceder directamente a enlaces potencialmente maliciosos. El resultado esperado es una decisión inicial: benigno, sospechoso, malicioso probable o requiere análisis adicional.
 
 ## Alcance
 
