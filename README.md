@@ -46,7 +46,7 @@ No se publicarán:
 
 ```text
 .
-|-- docs/                 # Guías tecnicas y referencias
+|-- docs/                 # Guías técnicas y referencias
 |-- playbooks/            # Procedimientos defensivos paso a paso
 |-- tools/                # Scripts sencillos y auditables
 |-- sigma/                # Reglas Sigma con referencias
