@@ -42,7 +42,9 @@ Registrar:
 Ejemplo:
 
 ```powershell
-Get-FileHash .\correo_sospechoso.eml -Algorithm SHA256
+powershell: Get-FileHash .\correo_sospechoso.eml -Algorithm SHA256
+```
+Bash: sha256sum correo_sospechoso.eml
 ```
 
 ### 2. Revisar cabeceras principales
@@ -64,7 +66,7 @@ Puntos de interés:
 - Dominios parecidos al dominio legitimo.
 - Ausencia o fallo de SPF, DKIM o DMARC.
 
-Importante: un fallo de SPF, DKIM o DMARC no prueba por si solo que un correo sea fraudulento. Es un indicador que debe interpretarse con el resto de evidencias.
+Importante: un fallo de SPF, DKIM o DMARC no prueba por si sólo que un correo sea fraudulento. Es un indicador que debe interpretarse con el resto de evidencias.
 
 ### 3. Interpretar SPF, DKIM y DMARC
 
@@ -84,7 +86,7 @@ DKIM:
 
 DMARC:
 
-- Evalua alineacion de dominios y resultados SPF/DKIM según la política publicada por el dominio.
+- Evalúa alineación de dominios y resultados SPF/DKIM según la política publicada por el dominio.
 - Revisar si el resultado es `pass` o `fail`, y la política declarada (`none`, `quarantine`, `reject`).
 
 Referencias:
@@ -125,14 +127,16 @@ Sin ejecutar el archivo:
 
 - Calcular hash SHA-256.
 - Identificar extensión y tipo real.
-- Revisar si hay doble extension.
+- Revisar si hay doble extensión.
 - Revisar macros, scripts, documentos comprimidos o ejecutables.
 - Analizar en entorno aislado si procede.
 
 Ejemplo:
 
 ```powershell
-Get-FileHash .\adjunto.bin -Algorithm SHA256
+powershell: Get-FileHash .\correo_sospechoso.eml -Algorithm SHA256
+```
+Bash: sha256sum correo_sospechoso.eml
 ```
 
 ### 7. Clasificar el caso
